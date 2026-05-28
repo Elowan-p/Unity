@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3721968519348038897}
   - component: {fileID: 7630343335253630337}
   - component: {fileID: 598514028504653883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Quille Variant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
