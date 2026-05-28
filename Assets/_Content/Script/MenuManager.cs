@@ -5,7 +5,7 @@ public class MenuManager : MonoBehaviour
 {
    public void PlayGame()
     {
-        SceneManager.LoadScene("Player");
+        SceneManager.LoadScene("FinishLineScene");
     }
 
     public void OpenSettings()

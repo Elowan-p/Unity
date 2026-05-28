@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tilling
+  m_Name: Trampline
   m_Shader: {fileID: -6465566751694194690, guid: de727afd45749ee2f86d77a080481e33, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -43,7 +43,7 @@ Material:
     m_Colors:
     - _ColorA: {r: 1, g: 1, b: 1, a: 1}
     - _ColorB: {r: 0, g: 0, b: 0, a: 1}
-    - _Frequency: {r: 20, g: 2, b: 0, a: 0}
+    - _Frequency: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2319169793916616448
