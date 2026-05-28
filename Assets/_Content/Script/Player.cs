@@ -291,6 +291,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Bounce(float force)
+    {
+        _state.Velocity.y = force;
+        _state.Ground = null;
+    }
+
     private void SetMovement(float deltaTime)
     {
         Vector3 motion = _state.Velocity + _platformVelocity;
