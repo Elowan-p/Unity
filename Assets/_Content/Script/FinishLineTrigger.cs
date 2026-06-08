@@ -3,13 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// Composants requis sur ce GameObject dans Unity :
-// - Collider (avec "Is Trigger" coché)
-// Composants à assigner dans l'inspecteur :
-// - winText : un GameObject contenant un Text (UI > Text) ou TextMeshPro,
-//   placé dans un Canvas, désactivé par défaut.
 public class FinishLineTrigger : MonoBehaviour
 {
+    [SerializeField] private GameTimer gameTimer;
     [SerializeField] private GameObject winText;
     [SerializeField] private string nextSceneName = "Player";
     [SerializeField] private float displayDuration = 5f;
@@ -29,6 +25,7 @@ public class FinishLineTrigger : MonoBehaviour
 
     public void win()
     {
+        gameTimer?.Stop();
         if (winText == null)
         {
             Debug.LogWarning("winText non assigné dans l'inspecteur !");
