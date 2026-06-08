@@ -244,14 +244,6 @@ PrefabInstance:
       value: FallingPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1057,14 +1049,6 @@ PrefabInstance:
       value: FallingPlatform (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -1246,7 +1230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b631a45eb2895c93a0fdd80ce502066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FinishLineTrigger
-  gameTimer: {fileID: 0}
   winText: {fileID: 1605388084}
   nextSceneName: Level_1
   displayDuration: 5
@@ -1352,14 +1335,6 @@ PrefabInstance:
       value: FallingPlatform (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
       objectReference: {fileID: 0}
@@ -1423,11 +1398,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2155,14 +2130,6 @@ PrefabInstance:
       value: Plateforme_1
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -2258,14 +2225,6 @@ PrefabInstance:
     - target: {fileID: 541543572440931561, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_Name
       value: Plateforme_1 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2927,14 +2886,6 @@ PrefabInstance:
       value: Plateforme_1
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3063,14 +3014,6 @@ PrefabInstance:
     - target: {fileID: 4994400762071933564, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_Name
       value: FallingPlatform
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3631,14 +3574,6 @@ PrefabInstance:
     - target: {fileID: 4994400762071933564, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_Name
       value: FallingPlatform (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4265,7 +4200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b631a45eb2895c93a0fdd80ce502066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FinishLineTrigger
-  gameTimer: {fileID: 0}
   winText: {fileID: 1605388084}
   nextSceneName: Level_1
   displayDuration: 5
@@ -4946,14 +4880,6 @@ PrefabInstance:
       value: FallingPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -5259,14 +5185,6 @@ PrefabInstance:
     - target: {fileID: 541543572440931561, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_Name
       value: Plateforme_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5651,14 +5569,6 @@ PrefabInstance:
       value: Plateforme_1
       objectReference: {fileID: 0}
     - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 921025354348136019, guid: 88d691042e049e453a96c95b10b23438, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
       objectReference: {fileID: 0}
@@ -5856,14 +5766,6 @@ PrefabInstance:
     - target: {fileID: 4994400762071933564, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_Name
       value: FallingPlatform
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5621756380400367814, guid: 77cfcc55ec472ee90ade750b70e1c0e0, type: 3}
       propertyPath: m_LocalPosition.x
