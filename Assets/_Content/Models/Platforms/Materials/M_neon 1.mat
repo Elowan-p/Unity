@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_neon
+  m_Name: M_neon 1
   m_Shader: {fileID: -6465566751694194690, guid: d2b678e0b28379a4a8cb1c76f5f31ab7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -122,7 +122,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.63619536, g: 0.8714063, b: 0.9162735, a: 1}
     - _Center: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.400489, g: 2.8997238, b: 3.396147, a: 1}
+    - _Color: {r: 0.24847619, g: 0.3580472, b: 0.5430614, a: 1}
     - _EmissionColor: {r: 4.38111, g: 8.857374, b: 9.976882, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

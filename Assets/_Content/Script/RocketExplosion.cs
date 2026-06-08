@@ -23,7 +23,7 @@ public class RocketExplosion : MonoBehaviour
 
     void Awake()
     {
-        radius = 1;
+        radius = 2;
         //_references.Explosion.Play();
     }
 
