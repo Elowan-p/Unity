@@ -9,6 +9,16 @@ public class MovingPlatform : MonoBehaviour
 
     void Update()
     {
+        if (waypoints == null || waypoints.Length == 0)
+        {
+            return;
+        }
+
+        if (waypoints[currentWaypointIndex] == null)
+        {
+            return;
+        }
+
         if (Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.1f)
         {
             currentWaypointIndex++;
