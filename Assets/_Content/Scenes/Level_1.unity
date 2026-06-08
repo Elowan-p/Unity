@@ -1504,6 +1504,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2892787543916411581, guid: 3a44a4363f216e243933f22bee2e91d0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2892787543916411581, guid: 3a44a4363f216e243933f22bee2e91d0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2892787543916411581, guid: 3a44a4363f216e243933f22bee2e91d0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2892787543916411581, guid: 3a44a4363f216e243933f22bee2e91d0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5615799743609903699, guid: 3a44a4363f216e243933f22bee2e91d0, type: 3}
+      propertyPath: m_fontSize
+      value: 23.8
+      objectReference: {fileID: 0}
     - target: {fileID: 7343838218468746822, guid: 3a44a4363f216e243933f22bee2e91d0, type: 3}
       propertyPath: m_Name
       value: CanvaUI
