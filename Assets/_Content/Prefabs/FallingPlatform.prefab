@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d620c9bb0ffa294392346026c6ab8cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d620c9bb0ffa294392346026c6ab8cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -81,6 +81,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d620c9bb0ffa294392346026c6ab8cf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8599033935327330550}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d620c9bb0ffa294392346026c6ab8cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8360262638470595827}
   m_SourcePrefab: {fileID: 100100000, guid: 3d620c9bb0ffa294392346026c6ab8cf, type: 3}
 --- !u!1 &4994400762071933564 stripped
 GameObject:
@@ -120,8 +123,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89bb7a62e85c0bd5b8fe82fc6fee7c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FallingPlatform
-  fallDelay: 1
+  fallDelay: 0.05
   fallSpeed: 10
+  riseSpeed: 25
+  resetDelay: 2
 --- !u!65 &8599033935327330550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -143,3 +148,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000001, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8360262638470595827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4994400762071933564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c182828aef4abe1bd0bacf6e4b43bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TremblingEffect
+  force: 0.02
+  delayBetweenShakes: 3
+  shakeDuration: 0.5
