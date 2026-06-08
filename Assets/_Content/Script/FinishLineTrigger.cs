@@ -29,22 +29,29 @@ public class FinishLineTrigger : MonoBehaviour
 
     public void win()
     {
-        if (winText == null)
-        {
-            Debug.LogWarning("winText non assigné dans l'inspecteur !");
-        }
-        else
-        {
-            Debug.Log($"Activation winText: {winText.name}");
-            winText.SetActive(true);
-        }
+        winText.SetActive(true);
 
-        StartCoroutine(LoadNextSceneAfterDelay());
+        StartCoroutine(WinRoutine());
     }
 
-    private IEnumerator LoadNextSceneAfterDelay()
+    private IEnumerator WinRoutine()
     {
+        Player.PlayerState previousState = Player.PlayerState.Idle;
+        bool hasPlayer = Player.Instance != null;
+
+        if (hasPlayer)
+        {
+            previousState = Player.Instance.State.CurrentState;
+            Player.Instance.State.CurrentState = Player.PlayerState.Winner;
+        }
+
         yield return new WaitForSeconds(displayDuration);
+
+        if (hasPlayer && Player.Instance != null)
+        {
+            Player.Instance.State.CurrentState = previousState;
+        }
+
         SceneManager.LoadScene(nextSceneName);
     }
 }
