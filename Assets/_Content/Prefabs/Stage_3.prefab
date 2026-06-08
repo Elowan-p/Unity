@@ -951,6 +951,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1238944495661441420, guid: 0efe65e18e08eeef692dd1f7101edfe9, type: 3}
   m_PrefabInstance: {fileID: 3001451305558819107}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8294969124093305534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6537795606408946589, guid: 0efe65e18e08eeef692dd1f7101edfe9, type: 3}
+  m_PrefabInstance: {fileID: 3001451305558819107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3087659239953298299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1181,6 +1186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinishLine
       objectReference: {fileID: 0}
+    - target: {fileID: 3271050418991758583, guid: 107154b17ca656efc960612fdcdf50a6, type: 3}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 8294969124093305534}
     - target: {fileID: 7010014445759468783, guid: 107154b17ca656efc960612fdcdf50a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.878168
