@@ -60,7 +60,12 @@ public class PlayerCamera : MonoBehaviour
     private void Awake()
     {
         _lookAction = _references.InputActions.FindActionMap("Player").FindAction("Look");
+
+        if (PlayerPrefs.HasKey("Sensitivity"))
+            _settings.LookSensitivity = Mathf.Clamp(Mathf.RoundToInt(PlayerPrefs.GetFloat("Sensitivity") * 20f), 1, 20);
     }
+
+    public void SetSensitivity(float value) => _settings.LookSensitivity = value;
 
     void OnEnable()
     {
@@ -117,5 +122,12 @@ public class PlayerCamera : MonoBehaviour
 
         transform.position = camPos;
         transform.rotation = camRot;
+    }
+
+    // Public methods 
+    
+    public void setSensivity(float value){
+        _settings.LookSensitivity = value;
+        Debug.Log("senesivity changed");
     }
 }
