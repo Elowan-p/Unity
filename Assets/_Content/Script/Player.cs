@@ -305,6 +305,11 @@ public class Player : MonoBehaviour
 
     private void SetState()
     {
+        if (State.CurrentState == PlayerState.Winner ||
+            State.CurrentState == PlayerState.Loser ||
+            State.CurrentState == PlayerState.Eliminated)
+            return;
+
         if (State.IsGrounded)
         {
             if (State.HorizontalVelocity.sqrMagnitude > .1f)
