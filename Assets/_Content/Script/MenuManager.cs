@@ -5,13 +5,17 @@ public class MenuManager : MonoBehaviour
 {
    public void PlayGame()
     {
-        SceneManager.LoadScene("FinishLineScene");
+        SceneManager.LoadScene("Level_1");
     }
 
     public void OpenSettings()
     {
         SceneManager.LoadScene("SettingsScene");
     } 
+
+    public void OpenMenu(){
+        SceneManager.LoadScene("MenuScene");
+    }
 
     public void QuitGame()
     {
