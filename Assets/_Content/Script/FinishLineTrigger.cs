@@ -3,13 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// Composants requis sur ce GameObject dans Unity :
-// - Collider (avec "Is Trigger" coché)
-// Composants à assigner dans l'inspecteur :
-// - winText : un GameObject contenant un Text (UI > Text) ou TextMeshPro,
-//   placé dans un Canvas, désactivé par défaut.
 public class FinishLineTrigger : MonoBehaviour
 {
+    [SerializeField] private GameTimer gameTimer;
     [SerializeField] private GameObject winText;
     [SerializeField] private string nextSceneName = "Player";
     [SerializeField] private float displayDuration = 5f;
@@ -29,29 +25,23 @@ public class FinishLineTrigger : MonoBehaviour
 
     public void win()
     {
-        winText.SetActive(true);
+        gameTimer?.Stop();
+        if (winText == null)
+        {
+            Debug.LogWarning("winText non assigné dans l'inspecteur !");
+        }
+        else
+        {
+            Debug.Log($"Activation winText: {winText.name}");
+            winText.SetActive(true);
+        }
 
-        StartCoroutine(WinRoutine());
+        StartCoroutine(LoadNextSceneAfterDelay());
     }
 
-    private IEnumerator WinRoutine()
+    private IEnumerator LoadNextSceneAfterDelay()
     {
-        Player.PlayerState previousState = Player.PlayerState.Idle;
-        bool hasPlayer = Player.Instance != null;
-
-        if (hasPlayer)
-        {
-            previousState = Player.Instance.State.CurrentState;
-            Player.Instance.State.CurrentState = Player.PlayerState.Winner;
-        }
-
         yield return new WaitForSeconds(displayDuration);
-
-        if (hasPlayer && Player.Instance != null)
-        {
-            Player.Instance.State.CurrentState = previousState;
-        }
-
         SceneManager.LoadScene(nextSceneName);
     }
 }
