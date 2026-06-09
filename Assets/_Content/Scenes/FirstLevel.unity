@@ -1170,7 +1170,7 @@ GameObject:
   - component: {fileID: 1061231039}
   - component: {fileID: 1061231038}
   m_Layer: 7
-  m_Name: Cube
+  m_Name: Lava
   m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
