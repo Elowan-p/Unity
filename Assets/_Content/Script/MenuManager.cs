@@ -19,7 +19,10 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("SettingsScene");
     } 
 
-    // Ferme complètement l'application
+    public void OpenMenu(){
+        SceneManager.LoadScene("MenuScene");
+    }
+
     public void QuitGame()
     {
         // Note : Application.Quit() est ignoré dans l'éditeur Unity, mais fonctionne dans la version compilée
