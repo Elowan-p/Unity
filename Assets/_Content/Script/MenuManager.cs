@@ -25,7 +25,6 @@ public class MenuManager : MonoBehaviour
 
     public void QuitGame()
     {
-        // Note : Application.Quit() est ignoré dans l'éditeur Unity, mais fonctionne dans la version compilée
         Application.Quit();
     }
 }

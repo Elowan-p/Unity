@@ -1,8 +1,10 @@
 using UnityEngine;
 using System.Collections;
 
-// Gère un effet de tremblement (secousses) périodique sur le GameObject.
-// Utile pour donner un indicateur visuel de danger sur des plateformes fragiles ou sur le point de s'effondrer.
+/// <summary>
+/// Gère un effet de tremblement (secousses) périodique sur le GameObject.
+/// Utile pour donner un indicateur visuel de danger sur des plateformes fragiles ou sur le point de s'effondrer.
+/// </summary>
 public class TremblingEffect : MonoBehaviour
 {
     [Tooltip("Intensité de la secousse (amplitude du décalage de position).")]

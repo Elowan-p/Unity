@@ -48,17 +48,4 @@ public class MovingPlatform : MonoBehaviour
             speed * Time.deltaTime
         );
     }
-
-    /// <summary>
-    /// Note de conception : Dans ce projet 3D, cet événement physique 2D (OnCollisionExit2D) est obsolète
-    /// et ne sera jamais déclenché. Le déplacement synchronisé du joueur sur la plateforme mobile est
-    /// géré dynamiquement dans le script Player.cs (CheckGround) à l'aide d'un calcul de déplacement relatif.
-    /// </summary>
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            collision.transform.SetParent(null);
-        }
-    }
 }

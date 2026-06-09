@@ -3,10 +3,7 @@
 using UnityEditor;
 using UnityEngine;
 
-/// <summary>
-/// Tiroir de propriété (Property Drawer) personnalisé associé à [ReadOnlyAttribute].
-/// Il intercepte le rendu de l'inspecteur pour dessiner les variables marquées en lecture seule.
-/// </summary>
+// Intercepte le rendu de l'inspecteur pour dessiner les variables marquées en lecture seule.
 [CustomPropertyDrawer(typeof(ReadOnlyAttribute))]
 public class ReadOnlyDrawer : PropertyDrawer
 {

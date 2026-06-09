@@ -2,9 +2,9 @@ using UnityEngine;
 
 /// <summary>
 /// ScriptableObject gérant la logique du chronomètre de la partie.
-/// L'utilisation d'un ScriptableObject permet de centraliser et de partager facilement
-/// la donnée du temps entre l'interface utilisateur (UI) et les déclencheurs du jeu (fin de niveau)
-/// sans coupler directement les classes.
+/// L'utilisation d'un ScriptableObject permet de centraliser et de partager
+/// la donnée du temps entre l'interface utilisateur (UI) et les déclencheurs du jeu
+/// (fin de niveau) sans coupler directement les classes.
 /// </summary>
 [CreateAssetMenu(fileName = "Timer", menuName = "Scriptable Objects/Timer")]
 public class GameTimer : ScriptableObject
