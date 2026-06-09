@@ -48,9 +48,6 @@ public class PlayerRespawn : MonoBehaviour
             return;
         }
 
-        // NOTE TECHNIQUE : Dans Unity, pour téléporter un objet équipé d'un CharacterController,
-        // il faut obligatoirement désactiver ce dernier le temps du déplacement du Transform,
-        // sinon le moteur physique risque de rejeter ou d'ignorer la nouvelle position.
         if (cc != null)
             cc.enabled = false;
 
