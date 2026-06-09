@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCamera
   _settings:
     FollowSmoothness: 0.1
-    LookSensitivity: 6
+    LookSensitivity: 10
     Distance: 2.97
     VerticalOffset: 1.78
     DefaultPitch: 20
@@ -1735,7 +1735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FinishLineTrigger
   gameTimer: {fileID: 0}
   winText: {fileID: 24209064}
-  nextSceneName: Player
+  nextSceneName: SecondLevel
   displayDuration: 5
   playerTag: Player
 --- !u!1001 &2075473860
