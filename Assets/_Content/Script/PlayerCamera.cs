@@ -119,12 +119,13 @@ public class PlayerCamera : MonoBehaviour
     /// </summary>
     private void SetCursor()
     {
-        if(!Application.isPlaying) 
+        if(!Application.isPlaying)
             return;
 
-        // Si le joueur est en pause, on libère le curseur pour lui permettre de cliquer sur l'UI
-        bool lockCursor = (Player.Instance != null) ? !Player.Instance.State.IsPaused : true;
+        // Verrouille curseur seulement si joueur existe et pas en pause
+        bool lockCursor = (Player.Instance != null) && !Player.Instance.State.IsPaused;
         Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.visible = !lockCursor;
     }
 
     /// <summary>

@@ -10,7 +10,7 @@ public class MenuManager : MonoBehaviour
     // Charge la scène de jeu principale pour démarrer la partie
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("FirstLevel");
     }
 
     // Ouvre la scène des options / paramètres

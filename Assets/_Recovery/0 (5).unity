@@ -518,66 +518,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1606183733}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_text
-      value: Parametres
-      objectReference: {fileID: 0}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontSize
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 9061ed966e3de188384bda8624c8981a, type: 2}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -4173990930939955425, guid: 9061ed966e3de188384bda8624c8981a, type: 2}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_characterSpacing
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 714439886576656608, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2660318885631513251, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontSize
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 2660318885631513251, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 9061ed966e3de188384bda8624c8981a, type: 2}
-    - target: {fileID: 2660318885631513251, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2660318885631513251, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 2660318885631513251, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -4173990930939955425, guid: 9061ed966e3de188384bda8624c8981a, type: 2}
-    - target: {fileID: 2660318885631513251, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_characterSpacing
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2660318885631513251, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3236968174399888470, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -585,34 +525,6 @@ PrefabInstance:
     - target: {fileID: 4633531643056363733, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068198270352823157, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontSize
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068198270352823157, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 9061ed966e3de188384bda8624c8981a, type: 2}
-    - target: {fileID: 6068198270352823157, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068198270352823157, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068198270352823157, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -4173990930939955425, guid: 9061ed966e3de188384bda8624c8981a, type: 2}
-    - target: {fileID: 6068198270352823157, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_characterSpacing
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068198270352823157, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6643318132943936896, guid: a7e4e53054d8772c8ba2356a696ccc41, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
